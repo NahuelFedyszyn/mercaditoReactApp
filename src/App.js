@@ -31,8 +31,8 @@ const ABC = [
   "Z"
 ]
 
-/** FUNCTIONS
 
+/*
 ------------------------------------------
 Esta funcion se usa para mover el indice del array ABC
 Necesita ser llamada de forma recurrente (usando setInterval),
