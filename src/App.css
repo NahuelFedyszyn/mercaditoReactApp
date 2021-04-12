@@ -1,6 +1,6 @@
 .MainContainer{
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   
   display: flex;
   align-items: center;
@@ -9,32 +9,32 @@
 }
 
 .LetterContainer{
-  height:65vh;
-  width:65vh;
+  height:40vw;
+  width:40vw;
   background-color:black;
   border-color:red;
   border-style:solid;
   border-width:10px;
   border-radius:50%;
   color:white;
-  font-size:20em;
+  font-size:30vw;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
   padding: 0;
+  transition:0.3s;
+  outline: none;
 }
 
-.MainButtonContainer{
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
+.LetterContainer:hover{
+  cursor: pointer;
+  box-shadow: black 0 0 25px 5px;
+  transform: scale(1.1);
 }
 
-.MainButtonContainer button{
-  height: 8vh;
-  width: auto;
+.LetterContainer:active{
+  box-shadow: red 0 0 25px 15px;
 }
 
 .timerBox{

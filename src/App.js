@@ -73,7 +73,7 @@ function App() {
           setStateIndex(0);
         }
         setSelected(ABC[stateIndex])
-        console.log(`${stateIndex}  --  ${ABC[stateIndex]}`)
+        //console.log(`${stateIndex}  --  ${ABC[stateIndex]}`)
       }, 10);
       
       return () => clearInterval(interval);
@@ -117,14 +117,13 @@ function App() {
     <>
       <div>
         <div className="MainContainer">
-          <div className="LetterContainer">
+          <button onClick={handleClick} className="LetterContainer">
             <span>{selected}</span>
-          </div>
+          </button>
         </div>
       </div>
-      <div className="MainButtonContainer">
-        <button onClick={handleClick}>START/STOP</button>
-      </div>
+
+
       {/* El div para el timer que al final no se uso */}
       {/*<div className="timerBox">
         <div className="timer" style={timerStyle}></div>
