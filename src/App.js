@@ -60,36 +60,38 @@ function App() {
   const [stateIndex, setStateIndex] = useState(0);
   const [selected, setSelected] = useState(ABC[stateIndex]);
   const [isRunning, setIsRunning] = useState(false);
-  let index = 0;
+  
   
   useEffect(() => {
     if(isRunning){
       const interval = setInterval(() => {
-        if(index<ABC.length-1){
-          index++;
+        if(stateIndex<ABC.length-1){
+          setStateIndex(stateIndex + 1);
         }
         else{
-          index = 0;
+          setStateIndex(0);
         }
-        console.log(`${index}  --  ${ABC[index]}`)
-      }, 500);
+        setSelected(ABC[stateIndex])
+        console.log(`${stateIndex}  --  ${ABC[stateIndex]}`)
+      }, 10);
+      
       return () => clearInterval(interval);
     }
   });
 
   function handleClick(){
     if(!isRunning){
-      alert("Running");
+      //alert("Running");
       setIsRunning(true);
       
     }
     else{
-      alert("Stopped");
+      //alert("Stopped");
       setIsRunning(false);
       
     }
-
-    setSelected(ABC[index])
+    
+    
 
   }
 

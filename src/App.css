@@ -34,5 +34,5 @@
 
 .MainButtonContainer button{
   height: 8vh;
-  width: 15vw;
+  width: auto;
 }
