@@ -60,10 +60,11 @@ function App() {
   const [stateIndex, setStateIndex] = useState(0);
   const [selected, setSelected] = useState(ABC[stateIndex]);
   const [isRunning, setIsRunning] = useState(false);
-  
+  const [timerWidth, setTimerWidth] = useState(0.1);
   
   useEffect(() => {
     if(isRunning){
+      setTimerWidth(0.00)
       const interval = setInterval(() => {
         if(stateIndex<ABC.length-1){
           setStateIndex(stateIndex + 1);
@@ -78,6 +79,18 @@ function App() {
       return () => clearInterval(interval);
     }
   });
+
+  //Este useEffect se usaba para un timer, despues me acorde que el mercadito no se juega con un timer...
+  /*useEffect(() => {
+    if(!isRunning && timerWidth<99.9){
+      const interval = setInterval(() => {
+        setTimerWidth(timerWidth + 0.10)
+      }, 10);
+      
+      return () => clearInterval(interval);
+    }
+  });
+*/
 
   function handleClick(){
     if(!isRunning){
@@ -95,6 +108,9 @@ function App() {
 
   }
 
+  let timerStyle = {
+    width:`${timerWidth}%`
+  }
 
 
   return (
@@ -109,6 +125,11 @@ function App() {
       <div className="MainButtonContainer">
         <button onClick={handleClick}>START/STOP</button>
       </div>
+      {/* El div para el timer que al final no se uso */}
+      {/*<div className="timerBox">
+        <div className="timer" style={timerStyle}></div>
+  </div>*/}
+      
     </>
   );
 }
