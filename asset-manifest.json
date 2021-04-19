@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/NahuelFedyszyn/mercaditoReactApp/static/css/main.376fd8fc.chunk.css",
-    "main.js": "/NahuelFedyszyn/mercaditoReactApp/static/js/main.f7a3b6c0.chunk.js",
-    "main.js.map": "/NahuelFedyszyn/mercaditoReactApp/static/js/main.f7a3b6c0.chunk.js.map",
-    "runtime-main.js": "/NahuelFedyszyn/mercaditoReactApp/static/js/runtime-main.fd567cd1.js",
-    "runtime-main.js.map": "/NahuelFedyszyn/mercaditoReactApp/static/js/runtime-main.fd567cd1.js.map",
-    "static/js/2.f35267a5.chunk.js": "/NahuelFedyszyn/mercaditoReactApp/static/js/2.f35267a5.chunk.js",
-    "static/js/2.f35267a5.chunk.js.map": "/NahuelFedyszyn/mercaditoReactApp/static/js/2.f35267a5.chunk.js.map",
-    "static/js/3.4cf44a9f.chunk.js": "/NahuelFedyszyn/mercaditoReactApp/static/js/3.4cf44a9f.chunk.js",
-    "static/js/3.4cf44a9f.chunk.js.map": "/NahuelFedyszyn/mercaditoReactApp/static/js/3.4cf44a9f.chunk.js.map",
-    "index.html": "/NahuelFedyszyn/mercaditoReactApp/index.html",
-    "static/css/main.376fd8fc.chunk.css.map": "/NahuelFedyszyn/mercaditoReactApp/static/css/main.376fd8fc.chunk.css.map",
-    "static/js/2.f35267a5.chunk.js.LICENSE.txt": "/NahuelFedyszyn/mercaditoReactApp/static/js/2.f35267a5.chunk.js.LICENSE.txt"
+    "main.css": "/mercaditoReactApp/static/css/main.376fd8fc.chunk.css",
+    "main.js": "/mercaditoReactApp/static/js/main.f7a3b6c0.chunk.js",
+    "main.js.map": "/mercaditoReactApp/static/js/main.f7a3b6c0.chunk.js.map",
+    "runtime-main.js": "/mercaditoReactApp/static/js/runtime-main.53518202.js",
+    "runtime-main.js.map": "/mercaditoReactApp/static/js/runtime-main.53518202.js.map",
+    "static/js/2.f35267a5.chunk.js": "/mercaditoReactApp/static/js/2.f35267a5.chunk.js",
+    "static/js/2.f35267a5.chunk.js.map": "/mercaditoReactApp/static/js/2.f35267a5.chunk.js.map",
+    "static/js/3.4cf44a9f.chunk.js": "/mercaditoReactApp/static/js/3.4cf44a9f.chunk.js",
+    "static/js/3.4cf44a9f.chunk.js.map": "/mercaditoReactApp/static/js/3.4cf44a9f.chunk.js.map",
+    "index.html": "/mercaditoReactApp/index.html",
+    "static/css/main.376fd8fc.chunk.css.map": "/mercaditoReactApp/static/css/main.376fd8fc.chunk.css.map",
+    "static/js/2.f35267a5.chunk.js.LICENSE.txt": "/mercaditoReactApp/static/js/2.f35267a5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.fd567cd1.js",
+    "static/js/runtime-main.53518202.js",
     "static/js/2.f35267a5.chunk.js",
     "static/css/main.376fd8fc.chunk.css",
     "static/js/main.f7a3b6c0.chunk.js"
